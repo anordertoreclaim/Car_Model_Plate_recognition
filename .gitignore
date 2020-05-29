@@ -1,1 +1,7 @@
-/models
+/models/Attention-OCR_car_plate_recognition/model*
+/models/Attention-OCR_car_plate_recognition/event*
+/models/Attention-OCR_car_plate_recognition/checkpoint*
+/models/EfficientNet_car_model_classification/model*
+/models/EfficientNet_car_plate_detection/model*
+test.tfrecords
+Rocket Science.out

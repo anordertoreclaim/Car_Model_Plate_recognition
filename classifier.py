@@ -117,16 +117,16 @@ model.load_state_dict(cp['state_dict'])
 
 def predict(image_path):
   id2cartype = {0: 'MAZDA_3_B',
-                1: 'KIA_RIO_B',
-                2: 'VOLKSWAGEN_POLO_B',
+                1: 'КIА_RIО_B',
+                2: 'VОLКSWАGЕN_РОLО_B',
                 3: 'VOLVO_ALLVOLVO_C',
-                4: 'HYUNDAI_SOLARIS_B',
+                4: 'НУUNDАI_SОLАRIS_B',
                 5: 'LADA_PRIORA_B',
-                6: 'VOLKSWAGEN_TIGUAN_B',
+                6: 'VОLКSWАGЕN_TIGUAN_B',
                 7: 'KAMAZ_ALLKAMAZ_C',
-                8: 'TOYOTA_RAV4_B',
+                8: 'TOYOTA_RАV4_B',
                 9: 'SCANIA_ALLSCANIA_C',
-                10: 'RENAULT_DUSTER_B'}
+                10: 'RЕNАULТ_DUSТЕR_B'}
   image = np.asarray(Image.open(image_path).convert('RGB'))
   image_tensor = test_transform(image=image)['image']
   image_tensor = image_tensor.unsqueeze(0)

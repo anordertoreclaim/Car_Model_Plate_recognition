@@ -2,11 +2,12 @@
 
 from flask import Flask, request, render_template, Response
 import json
-
+import cv2
 #car model classification
 from classifier import predict
 
 #car plate detection
+from detection import detect
 
 #car plate recognition
 from recognizer import recognize
@@ -19,18 +20,18 @@ app = Flask(__name__)
 def service():
 	if request.method == 'POST':
 		file = request.files['file']
+		file.save('image_test.jpg')
 		
 		# Car model classification
-		#format: LADA_PRIORA_B
 		brand, model, veh_type = predict('image_test.jpg')
-		# Car plate detection
-		#plate_image = detect('image_path')
+		
+		#Car plate detection
+		detect('image_test.jpg')
 
 		#Car plate recognition
-		car_plate = recognize(plate_image) 
-
-		response = {"brand":brand,"model":model,"probability":"72.5","veh_type":veh_type,"coord":"[(398,292),(573,360)]","id":"0001","plate":"x000xxx111"}
-		response = json.dumps(response)
+		text, prob = recognize('X000XX000.jpg') 
+		response = {"brand":brand,"model":model,"probability":prob,"veh_type":veh_type,"coord":"[(398,292),(573,360)]","id":"0001","plate":text}
+		response = json.dumps(response, ensure_ascii=False)
 
 		return Response(response=response, status=200, mimetype="application/json")	
 	return render_template("service.html")

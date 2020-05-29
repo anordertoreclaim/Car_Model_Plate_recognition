@@ -1,112 +1,22 @@
-2020-05-28 15:07:56,295 root  INFO     Building a dataset from annotations.txt.
-2020-05-28 15:07:56,297 root  INFO     Output file: test.tfrecords
-2020-05-28 15:07:56,300 root  INFO     Processed 1 pairs.
-2020-05-28 15:07:59,330 root  INFO     phase: test
-2020-05-28 15:07:59,332 root  INFO     model_dir: models/Attention-OCR_car_plate_recognition
-2020-05-28 15:07:59,333 root  INFO     load_model: True
-2020-05-28 15:07:59,334 root  INFO     output_dir: ./results
-2020-05-28 15:07:59,334 root  INFO     steps_per_checkpoint: 0
-2020-05-28 15:07:59,335 root  INFO     batch_size: 1
-2020-05-28 15:07:59,335 root  INFO     learning_rate: 1.000000
-2020-05-28 15:07:59,336 root  INFO     reg_val: 0
-2020-05-28 15:07:59,336 root  INFO     max_gradient_norm: 5.000000
-2020-05-28 15:07:59,336 root  INFO     clip_gradients: True
-2020-05-28 15:07:59,336 root  INFO     max_image_width 250.000000
-2020-05-28 15:07:59,336 root  INFO     max_prediction_length 9.000000
-2020-05-28 15:07:59,337 root  INFO     channels: 1
-2020-05-28 15:07:59,337 root  INFO     target_embedding_size: 10.000000
-2020-05-28 15:07:59,337 root  INFO     attn_num_hidden: 128
-2020-05-28 15:07:59,337 root  INFO     attn_num_layers: 2
-2020-05-28 15:07:59,337 root  INFO     visualize: False
-2020-05-28 15:08:01,047 root  INFO     Reading model parameters from models/Attention-OCR_car_plate_recognition/model.ckpt-39000
-2020-05-28 15:08:02,687 root  INFO     Step 1 (0.378s). Accuracy: 11.11%, loss: 3.295965, perplexity: 27.0035, probability:  0.00%  11% (P774YX116 vs X000XX000) 
-2020-05-28 15:09:40,683 root  INFO     Building a dataset from annotations.txt.
-2020-05-28 15:09:40,684 root  INFO     Output file: test.tfrecords
-2020-05-28 15:09:40,686 root  INFO     Processed 1 pairs.
-2020-05-28 15:09:43,646 root  INFO     phase: test
-2020-05-28 15:09:43,647 root  INFO     model_dir: models/Attention-OCR_car_plate_recognition
-2020-05-28 15:09:43,647 root  INFO     load_model: True
-2020-05-28 15:09:43,648 root  INFO     output_dir: ./results
-2020-05-28 15:09:43,648 root  INFO     steps_per_checkpoint: 0
-2020-05-28 15:09:43,649 root  INFO     batch_size: 1
-2020-05-28 15:09:43,650 root  INFO     learning_rate: 1.000000
-2020-05-28 15:09:43,652 root  INFO     reg_val: 0
-2020-05-28 15:09:43,653 root  INFO     max_gradient_norm: 5.000000
-2020-05-28 15:09:43,653 root  INFO     clip_gradients: True
-2020-05-28 15:09:43,653 root  INFO     max_image_width 250.000000
-2020-05-28 15:09:43,653 root  INFO     max_prediction_length 9.000000
-2020-05-28 15:09:43,653 root  INFO     channels: 1
-2020-05-28 15:09:43,653 root  INFO     target_embedding_size: 10.000000
-2020-05-28 15:09:43,653 root  INFO     attn_num_hidden: 128
-2020-05-28 15:09:43,653 root  INFO     attn_num_layers: 2
-2020-05-28 15:09:43,653 root  INFO     visualize: False
-2020-05-28 15:09:45,137 root  INFO     Reading model parameters from models/Attention-OCR_car_plate_recognition/model.ckpt-39000
-2020-05-28 15:09:45,961 root  INFO     Step 1 (0.370s). Accuracy: 11.11%, loss: 12.440297, perplexity: 2.52786e+05, probability: 99.61%  11% (Y710KK116 vs X000XX000) 
-2020-05-28 15:11:14,049 root  INFO     Building a dataset from annotations.txt.
-2020-05-28 15:11:14,051 root  INFO     Output file: test.tfrecords
-2020-05-28 15:11:14,054 root  INFO     Processed 1 pairs.
-2020-05-28 15:11:16,949 root  INFO     phase: test
-2020-05-28 15:11:16,950 root  INFO     model_dir: models/Attention-OCR_car_plate_recognition
-2020-05-28 15:11:16,950 root  INFO     load_model: True
-2020-05-28 15:11:16,952 root  INFO     output_dir: ./results
-2020-05-28 15:11:16,952 root  INFO     steps_per_checkpoint: 0
-2020-05-28 15:11:16,953 root  INFO     batch_size: 1
-2020-05-28 15:11:16,953 root  INFO     learning_rate: 1.000000
-2020-05-28 15:11:16,954 root  INFO     reg_val: 0
-2020-05-28 15:11:16,954 root  INFO     max_gradient_norm: 5.000000
-2020-05-28 15:11:16,954 root  INFO     clip_gradients: True
-2020-05-28 15:11:16,954 root  INFO     max_image_width 250.000000
-2020-05-28 15:11:16,954 root  INFO     max_prediction_length 9.000000
-2020-05-28 15:11:16,955 root  INFO     channels: 1
-2020-05-28 15:11:16,955 root  INFO     target_embedding_size: 10.000000
-2020-05-28 15:11:16,955 root  INFO     attn_num_hidden: 128
-2020-05-28 15:11:16,955 root  INFO     attn_num_layers: 2
-2020-05-28 15:11:16,955 root  INFO     visualize: True
-2020-05-28 15:11:18,367 root  INFO     Reading model parameters from models/Attention-OCR_car_plate_recognition/model.ckpt-39000
-2020-05-28 15:11:19,187 PIL.Image DEBUG    Error closing: 'NoneType' object has no attribute 'close'
-2020-05-28 15:11:19,188 root  INFO     Step 1 (0.371s). Accuracy: 11.11%, loss: 12.440297, perplexity: 2.52786e+05, probability: 99.61%  11% (Y710KK116 vs X000XX000) 
-2020-05-28 15:12:10,882 root  INFO     Building a dataset from annotations.txt.
-2020-05-28 15:12:10,884 root  INFO     Output file: test.tfrecords
-2020-05-28 15:12:10,885 root  INFO     Processed 1 pairs.
-2020-05-28 15:12:13,771 root  INFO     phase: test
-2020-05-28 15:12:13,772 root  INFO     model_dir: models/Attention-OCR_car_plate_recognition
-2020-05-28 15:12:13,773 root  INFO     load_model: True
-2020-05-28 15:12:13,774 root  INFO     output_dir: ./results
-2020-05-28 15:12:13,774 root  INFO     steps_per_checkpoint: 0
-2020-05-28 15:12:13,774 root  INFO     batch_size: 1
-2020-05-28 15:12:13,775 root  INFO     learning_rate: 1.000000
-2020-05-28 15:12:13,775 root  INFO     reg_val: 0
-2020-05-28 15:12:13,775 root  INFO     max_gradient_norm: 5.000000
-2020-05-28 15:12:13,775 root  INFO     clip_gradients: True
-2020-05-28 15:12:13,775 root  INFO     max_image_width 250.000000
-2020-05-28 15:12:13,775 root  INFO     max_prediction_length 9.000000
-2020-05-28 15:12:13,776 root  INFO     channels: 1
-2020-05-28 15:12:13,776 root  INFO     target_embedding_size: 10.000000
-2020-05-28 15:12:13,776 root  INFO     attn_num_hidden: 128
-2020-05-28 15:12:13,776 root  INFO     attn_num_layers: 2
-2020-05-28 15:12:13,776 root  INFO     visualize: True
-2020-05-28 15:12:15,201 root  INFO     Reading model parameters from models/Attention-OCR_car_plate_recognition/model.ckpt-39000
-2020-05-28 15:12:16,004 PIL.Image DEBUG    Error closing: 'NoneType' object has no attribute 'close'
-2020-05-28 15:12:16,005 root  INFO     Step 1 (0.352s). Accuracy: 11.11%, loss: 12.440297, perplexity: 2.52786e+05, probability: 99.61%  11% (Y710KK116 vs X000XX000) 
-2020-05-28 15:25:53,576 root  INFO     Building a dataset from annotations.txt.
-2020-05-28 15:25:53,577 root  INFO     Output file: test.tfrecords
-2020-05-28 15:25:53,577 root  INFO     Processed 1 pairs.
-2020-05-28 15:25:58,009 root  INFO     phase: test
-2020-05-28 15:25:58,011 root  INFO     model_dir: models/Attention-OCR_car_plate_recognition
-2020-05-28 15:25:58,011 root  INFO     load_model: True
-2020-05-28 15:25:58,012 root  INFO     output_dir: ./results
-2020-05-28 15:25:58,012 root  INFO     steps_per_checkpoint: 0
-2020-05-28 15:25:58,014 root  INFO     batch_size: 1
-2020-05-28 15:25:58,014 root  INFO     learning_rate: 1.000000
-2020-05-28 15:25:58,015 root  INFO     reg_val: 0
-2020-05-28 15:25:58,015 root  INFO     max_gradient_norm: 5.000000
-2020-05-28 15:25:58,015 root  INFO     clip_gradients: True
-2020-05-28 15:25:58,015 root  INFO     max_image_width 250.000000
-2020-05-28 15:25:58,016 root  INFO     max_prediction_length 9.000000
-2020-05-28 15:25:58,016 root  INFO     channels: 1
-2020-05-28 15:25:58,016 root  INFO     target_embedding_size: 10.000000
-2020-05-28 15:25:58,016 root  INFO     attn_num_hidden: 128
-2020-05-28 15:25:58,016 root  INFO     attn_num_layers: 2
-2020-05-28 15:25:58,016 root  INFO     visualize: False
-2020-05-28 15:25:59,595 root  INFO     Reading model parameters from models/Attention-OCR_car_plate_recognition/model.ckpt-39000
-2020-05-28 15:26:02,003 root  INFO     Step 1 (1.359s). Accuracy: 11.11%, loss: 12.440297, perplexity: 2.52786e+05, probability: 99.61%  11% (Y710KK116 vs X000XX000) 
+2020-05-28 16:35:02,187 root  INFO     Building a dataset from annotations.txt.
+2020-05-28 16:35:02,189 root  INFO     Output file: test.tfrecords
+2020-05-28 16:35:02,192 root  INFO     Processed 1 pairs.
+2020-05-28 16:35:28,046 root  INFO     phase: test
+2020-05-28 16:35:28,049 root  INFO     model_dir: models/Attention-OCR_car_plate_recognition
+2020-05-28 16:35:28,049 root  INFO     load_model: True
+2020-05-28 16:35:28,052 root  INFO     output_dir: ./results
+2020-05-28 16:35:28,052 root  INFO     steps_per_checkpoint: 0
+2020-05-28 16:35:28,053 root  INFO     batch_size: 1
+2020-05-28 16:35:28,054 root  INFO     learning_rate: 1.000000
+2020-05-28 16:35:28,054 root  INFO     reg_val: 0
+2020-05-28 16:35:28,054 root  INFO     max_gradient_norm: 5.000000
+2020-05-28 16:35:28,055 root  INFO     clip_gradients: True
+2020-05-28 16:35:28,055 root  INFO     max_image_width 250.000000
+2020-05-28 16:35:28,055 root  INFO     max_prediction_length 9.000000
+2020-05-28 16:35:28,055 root  INFO     channels: 1
+2020-05-28 16:35:28,055 root  INFO     target_embedding_size: 10.000000
+2020-05-28 16:35:28,055 root  INFO     attn_num_hidden: 128
+2020-05-28 16:35:28,055 root  INFO     attn_num_layers: 2
+2020-05-28 16:35:28,055 root  INFO     visualize: False
+2020-05-28 16:35:30,015 root  INFO     Reading model parameters from models/Attention-OCR_car_plate_recognition/model.ckpt-39000
+2020-05-28 16:35:32,792 root  INFO     Step 1 (1.515s). Accuracy: 11.11%, loss: 11.956569, perplexity: 1.55837e+05, probability: 99.97%  11% (A568AY750 vs X000XX000) 
