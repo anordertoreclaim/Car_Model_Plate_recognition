@@ -35,6 +35,8 @@ Attention visualization
 
 ## How to run
 
+To get pretrained models contact nariman9119@gmail.com
+
 ```
 python app.py
 ```
